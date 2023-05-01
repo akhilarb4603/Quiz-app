@@ -9,6 +9,8 @@ body{
     background-image:url("space.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment: fixed;
 }
 .app{
     background-color:white;
@@ -49,9 +51,12 @@ body{
     border-radius:4px;
     cursor:pointer;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background:black;
     color:goldenrod;
+}
+.btn:disabled{
+    cursor:no-drop;
 }
 #next-btn{
     background: white;
@@ -64,4 +69,10 @@ body{
     border-radius:4px;
     cursor:pointer;
     display:none;
+}
+.correct{
+    background:#9aeabc;
+}
+.incorrect{
+    background:#ff9393;
 }
