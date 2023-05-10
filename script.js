@@ -22,7 +22,7 @@ const questions=[
         answers:[
             {text:"Comet",correct:false},
             {text:"Debris",correct:false},
-            {text:"Andromeda Galaxy",correct:true},
+            {text:"Andromeda Galaxy++",correct:true},
             {text:"Local Group",correct:false},
         ]
     },
